@@ -18,3 +18,12 @@ CryptoCast is a specialized Chromecast application designed for cryptocurrency e
 CryptoCast modifies the Binance trade page to display only the Bitcoin price in a large, easily readable format, perfect for monitoring the cryptocurrency market.
 
 Enjoy the simplicity and efficiency of CryptoCast for all your cryptocurrency display needs!
+
+## Usage
+
+To use CryptoCast:
+
+1. Visit the sender application at [CryptoCast Sender](https://robinnakamoto.github.io/CryptoCast/sender/).
+2. Enter the URL (defaulted to the Binance Bitcoin trading page) and launch it to display live Bitcoin prices on your Chromecast-connected display.
+
+Follow the setup instructions in the repository to configure and host the receiver part of the application.
