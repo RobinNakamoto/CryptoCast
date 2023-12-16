@@ -1,0 +1,52 @@
+/**
+ * CryptoCast Sender CSS.
+ */
+
+ body {
+  margin: 10px auto;
+  padding: 0;
+  max-width: 300px;
+  background-color: #333; /* Dark background */
+  color: #fff; /* Light text color */
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+p {
+  font-size: 12pt;
+}
+
+input, textarea {
+  transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 5px;
+  margin: 5px 1px;
+  border: 1px solid #555;
+  width: 100%;
+  background-color: #222; /* Dark input fields */
+  color: #fff; /* Light text for inputs */
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 5px #888;
+  border: 1px solid #888;
+}
+
+button {
+  background-color: #4CAF50; /* Green background for buttons */
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#kill:disabled {
+  background-color: #888;
+}
