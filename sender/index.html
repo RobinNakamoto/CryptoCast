@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CryptoCast Sender</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Condensed:700">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+</head>
+<body>
+  <p>
+    Enter the URL to display on the dashboard. For CryptoCast, the default URL is set to the Binance Bitcoin trading page.
+  </p>
+  <form method="get" action="JavaScript:connect();">
+    <label>URL <input type="text" id="url" value="https://www.binance.com/en-GB/trade/BTC_FDUSD?_from=markets&type=spot"></label>
+    <button type="submit">Launch</button>
+  </form>
+  <button id="kill" disabled>Stop Casting</button>
+  <p id="post-note" style="display: none">
+    If the page does not load, please ensure it allows being loaded inside an iframe.
+  </p>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://underscorejs.org/underscore-min.js"></script>
+<script src="main.js"></script>
+</html>
